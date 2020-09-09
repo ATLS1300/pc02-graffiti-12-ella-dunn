@@ -1,0 +1,74 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""
+Created on Wed Sep  9 11:05:06 2020
+
+@author: elladunn
+"""
+
+
+
+from turtle import * 
+
+panel = Screen()
+
+w = 750
+h = 750
+panel.setup(width=w, height=h)
+
+image = "Bezos.gif"
+panel.bgcolor("Lightsteelblue")
+panel.bgpic(image)
+
+clear()
+
+goto(-50,50)
+circle(50)
+
+down()
+goto(-50,-50)
+down()
+goto(-55,-55)
+down()
+goto(-70,-70)
+down()
+goto(-40,-40)
+down()
+goto(-100,-100)
+down()
+goto(-20,-20)
+down()
+goto(-100,-100)
+down()
+goto(-100,100)
+down()
+goto(100,100)
+down()
+goto(50,50)
+down()
+goto(20,20)
+down()
+goto(20,-100)
+down()
+goto(-20,-20)
+
+down()
+goto(175,175)
+pensize(5)
+shape("circle")
+
+down()
+pensize(1)
+goto(200,200)
+down()
+goto(-200,-200)
+down()
+pensize(7)
+circle(-200)
+
+down()
+goto(-250,-250)
+down()
+pensize(1)
+down()
+
